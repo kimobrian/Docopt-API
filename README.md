@@ -1,5 +1,5 @@
 # Docopt-API
-API utilizing json placeholder using Docopt Command line
+API utilizing [json placeholder](jsonplaceholder.typicode.com) using Docopt Command line
 
 Clone the repo using and navigate into the project directory.
 
