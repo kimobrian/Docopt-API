@@ -9,4 +9,4 @@ Create a virtual environment using `virtualenv venv` and activate using `source 
 
 Run the application using   `python app.py -i`
 
-Type `help` for help on any command
+Type `help command_name` for help on any command
