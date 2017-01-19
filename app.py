@@ -11,7 +11,6 @@
     Options:
         -i, --interactive  Interactive Mode
         -h, --help  Show this screen and exit.
-        --baud=<n>  Baudrate [default: 9600]
 """
 
 
@@ -78,7 +77,7 @@ class MyAPI(cmd.Cmd):
         api.delete_user(user_id)
 
     @docopt_cmd
-    def do_update_users(self, arg):
+    def do_update_user(self, arg):
         """Usage: update_user <user_id> <first_name> <last_name> <email> <nick_name>"""
         user_id = arg["<user_id>"]
         name = arg["<first_name>"] + " " + arg["<last_name>"]
